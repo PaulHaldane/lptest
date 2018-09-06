@@ -1,0 +1,5 @@
+Simple perl script to generate a ripple test (as used
+for testing line printers).
+
+Current version doesn't take any options to control number of 
+lines or width.

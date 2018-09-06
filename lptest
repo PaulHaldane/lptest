@@ -1,0 +1,15 @@
+#!/usr/bin/perl -sw
+
+$chars = 93;
+$lineLength = $chars * 3;
+
+$line = '';
+foreach $i (0 .. $lineLength) {
+	$line .= chr(33 + $i % $chars);
+}
+
+$lines = 500;
+$displayWidth = 79;
+foreach $i (0 .. $lines) {
+	print substr($line, $i % ($lineLength - $chars), $displayWidth), "\n";
+}
