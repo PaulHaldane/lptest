@@ -1,5 +1,9 @@
 Simple perl script to generate a ripple test (as used
 for testing line printers).
 
+A program to do this used to be part of the standard (BSD?) distribution.
+I keep finding the need for something like this (when prodding at lumpy ssh 
+connections and similar) and rewriting it.
+
 Current version doesn't take any options to control number of 
 lines or width.
